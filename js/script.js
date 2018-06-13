@@ -112,6 +112,8 @@ map.on('load', function() {
         map.getCanvas().style.cursor = 'pointer';
 
         var name = e.features[0].properties.ADMIN;
+        /*var currentYear = e.features[0].properties.year;
+        var forrest = e.features[0].properties.value;*/
 
         popup.setLngLat(e.lngLat)
             .setHTML(name)
@@ -132,6 +134,7 @@ map.on('load', function() {
         map.getCanvas().style.cursor = 'pointer';
 
         var name = e.features[0].properties.ADMIN;
+        /*var currentYear = e.features[0].properties.year;*/
 
         popup.setLngLat(e.lngLat)
             .setHTML(name)
